@@ -79,3 +79,40 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+@media (max-width: 768px) {
+    body {
+        margin-bottom: 50px;
+}
+
+.chamada {
+    padding: 50px 20px;
+}
+
+.chamada-texto h1 {
+    font-size: 2rem;
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+}
+
+.recomendações {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.recomendações img {
+    height: auto;
+    width: 100%;
+}
+
+footer {
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+}
